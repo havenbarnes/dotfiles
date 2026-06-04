@@ -5,6 +5,10 @@ Personal dotfiles managed with a bare git repo. No symlinks, no extra tools.
 ## What's tracked
 
 - `~/.zshrc` — shell config, aliases, PATH
+- `~/.zshenv` — env vars loaded for all shell types
+- `~/.zprofile` — login shell init (Homebrew, OrbStack)
+- `~/.gitconfig` — git user config
+- `~/.p10k.zsh` — Powerlevel10k prompt config
 - `~/.config/nvim/` — Neovim config (lazy.nvim based)
 
 ## Fresh machine setup
