@@ -16,7 +16,6 @@ alias prj="cd ~/Projects"
 alias gpom="git pull origin main"
 alias tweak='git commit -m "tweak" && push'
 alias push='git push origin $(git rev-parse --abbrev-ref HEAD)'
-alias vim='nvim'
 
 plugins+=(zsh-better-npm-completion)
 
